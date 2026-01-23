@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta author="Hope McBride">
+        <title>Hello, World!</title>
+
+        <!--put your external stylesheet links here-->
+        <link rel="stylesheet" href="css/style.css">
+        <!--[if IE<9]>
+            <link rel="stylesheet" href="css/style.ie.css">
+        <![endif]-->
+        
+        <!--you can also place internal styles here
+        place these within <style> tags-->  
+        
+    </head>
+
+    <body>
+        <!--put your initial page content here-->
+        <br>
+        <p id="world" style="color:blanchedalmond;background-color: black;">Hello, World!</p>
+        <a href="https://www.wisc.edu">Wisconsin</a>
+        <div>
+            <h1 class="headline">Big News!</h1>
+            <span>School is Canceled - </span>
+        </div>
+        <span>For Real!</span>
+
+        <script>
+            var mydiv = document.getElementById("world");
+            mydiv.addEventListener("click", function(){
+                alert("Hello World!");
+            });
+        </script>
+
+        <!--you can also use this space for internal scripts;
+        place these within <script> tags-->
+
+        <script type="text/javascript" src="js/main.js"></script>
+        
+        <!--put your external script links here-->
+        
+    </body>
+</html>
